@@ -14,5 +14,8 @@ public class Cities {
             }
         }
         System.out.println("contain Chicago? : " + flag);
+
+        // 宣言的な処理
+        System.out.println("contain Chicago? : " + cities.contains("Chicago"));
     }
 }
