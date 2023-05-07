@@ -20,5 +20,19 @@ public class Discount {
             }
         }
         System.out.println(total.multiply(BigDecimal.valueOf(0.9)));
+
+        // プリミティブ型への執着
+        // 単一責任の原則を無視
+
+        // 改善
+        // これを思いつくには、.multiplyや.reduceの使い方がわかっていて
+        // 先にどう処理するかを明確にしておかないといけない。
+        // たとえば、上のコメントだけならmapまで出来るけどreduceは知らないと出来ない
+        // 次これを生かすなら、まずは上のコメントアウトをstreamで処理しやすいように改善すると、もっと例を増やすべき
+        final BigDecimal totalOfDiscountedPrices = prices.stream()
+                .filter(price -> price.compareTo(BigDecimal.valueOf(20)) > 0)
+                .map(price -> price.multiply(BigDecimal.valueOf(0.9)))
+                .reduce(BigDecimal.ZERO, BigDecimal::add);
+        System.out.println(totalOfDiscountedPrices);
     }
 }
