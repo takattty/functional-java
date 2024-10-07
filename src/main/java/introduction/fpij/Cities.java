@@ -31,5 +31,23 @@ public class Cities {
          * さらに、その条件から何をするのかまで見ないといけない。（計算なのか、別のメソッドを呼ぶのか、またfor文を回すのかなど）
          * なので宣言的にかけると、「何をしたいか」が明確になるのを実感。
          */
+
+
+        int sort[] = {77,324, 4, 23, 434, 3, 1, 45, 55};
+        int temp;
+
+        for (int i = 1; i < sort.length; i++) {
+            for (int j = i; j > sort.length; j--) {
+                if (sort[j] < sort[j - 1]) {
+                    temp = sort[j];
+                    sort[j] = sort[j - 1];
+                    sort[j - 1] = temp;
+                }
+            }
+        }
+
+        for (int i = 0; i < sort.length; i++) {
+            System.out.println(sort[i]);
+        }
     }
 }
