@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a5fc9c0c-c63c-4194-b9b4-0bb61356ebed" name="変更" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/introduction/fpij/Cities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/introduction/fpij/Cities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/introduction/fpij/Discount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/introduction/fpij/Discount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/introduction/fpij/tempString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/introduction/fpij/tempString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +60,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="PerforceDirect.Settings">
+    <option name="CHARSET" value="なし" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2

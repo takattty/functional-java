@@ -7,7 +7,7 @@ public class tempString {
 
     public static class MyRunnable implements Runnable {
 
-        private ThreadLocal<String> threadLocal = new ThreadLocal<>();
+        private final ThreadLocal<String> threadLocal = new ThreadLocal<>();
 
         @Override
         public void run() {
